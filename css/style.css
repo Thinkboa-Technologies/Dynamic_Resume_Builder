@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    background-color: #f5f5f5;
+}
+
+/* Resume Preview Styles */
+#resumePreview {
+    background-color: white;
+    min-height: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.section {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.section h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+/* Form Styles */
+.card {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.education-entry, .experience-entry, .skills-entry {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+
+.remove-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #dc3545;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+/* Preview Styles */
+#previewName {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#previewContact {
+    color: #7f8c8d;
+}
+
+.preview-item {
+    margin-bottom: 1rem;
+}
+
+.preview-item h4 {
+    color: #34495e;
+    margin-bottom: 0.3rem;
+}
+
+.preview-item p {
+    color: #7f8c8d;
+    margin-bottom: 0.2rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background-color: #e9ecef;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
